@@ -1,0 +1,25 @@
+.usersDiv {
+    margin: auto;
+    /* Center child horizontally*/
+    display: flex;
+    justify-content: center;
+}
+
+.userDiv {
+    display: flex;
+    /* establish flex container */
+    flex-direction: row;
+    /* default value; can be omitted */
+    flex-wrap: nowrap;
+}
+
+.userText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatarImg {
+    border-radius: 8px;
+    width: 50px;
+}
